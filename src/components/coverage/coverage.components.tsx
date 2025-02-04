@@ -1,4 +1,5 @@
 import { MapPin } from "lucide-react";
+import Button from "../../element/button.element";
 
 const coverage = [
   "Centro",
@@ -37,12 +38,7 @@ const Coverage = () => {
                 placeholder="Digite seu CEP"
                 className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-600"
               />
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition-colors"
-              >
-                Consultar
-              </button>
+              <Button>Consultar</Button>
             </form>
           </div>
         </div>

@@ -3,27 +3,21 @@ import { Wifi } from "lucide-react";
 const plans = [
   {
     name: "Básico",
-    speed: "400 Mbps",
+    speed: "400",
     price: "R$ 80,00",
-    features: ["Wi-Fi Grátis", "Instalação Gratuita", "Suporte 24/7"],
+    features: ["Wi-Fi Grátis", "Instalação Gratuita", "Suporte especializado"],
   },
   {
     name: "Família",
-    speed: "600 Mbps",
+    speed: "600",
     price: "R$ 99,90",
-    features: ["Wi-Fi Mesh", "Instalação Gratuita", "Suporte 24/7", "IP Fixo"],
+    features: ["Wi-Fi Mesh", "Instalação Gratuita", "Suporte especializado"],
   },
   {
     name: "Premium",
-    speed: "700 Mbps",
+    speed: "700",
     price: "R$ 129,90",
-    features: [
-      "Wi-Fi Mesh Premium",
-      "Instalação Prioritária",
-      "Suporte VIP",
-      "IP Fixo",
-      "TV Box 4K",
-    ],
+    features: ["Wi-Fi Mesh Premium", "Instalação Prioritária", "Suporte VIP"],
   },
 ];
 
@@ -40,9 +34,14 @@ const Planos = () => {
             >
               <h3 className="text-2xl font-bold mb-4">{plan.name}</h3>
               <p className="text-4xl font-bold text-blue-600 mb-4">
-                {plan.speed}
+                {plan.speed}{" "}
+                <span className="text-xs bg-purple-600 text-white px-2 py-1 rounded-lg ml-1">
+                  MB
+                </span>
               </p>
-              <p className="text-3xl font-bold mb-6">{plan.price}</p>
+              <div className="mt-2 text-2xl font-bold bg-purple-700 inline-block px-4 py-1 rounded-lg">
+                {plan.price}
+              </div>
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-center">
