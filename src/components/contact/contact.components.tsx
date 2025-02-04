@@ -6,6 +6,7 @@ import {
   MessageCircle,
   Phone,
 } from "lucide-react";
+import Button from "../../element/button.element";
 
 const Contact = () => {
   return (
@@ -42,12 +43,7 @@ const Contact = () => {
                   className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-600"
                 ></textarea>
               </div>
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition-colors"
-              >
-                Enviar Mensagem
-              </button>
+              <Button>Enviar mensagem </Button>
             </form>
           </div>
           <div>

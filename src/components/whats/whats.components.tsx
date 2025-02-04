@@ -13,5 +13,3 @@ const Whats = () => {
 };
 
 export default Whats;
-
-<MessageCircle />;
