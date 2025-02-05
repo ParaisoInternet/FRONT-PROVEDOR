@@ -1,4 +1,4 @@
-import { Wifi } from "lucide-react";
+import Logo from "../../element/logo.element";
 
 const Footer = () => {
   return (
@@ -6,13 +6,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center mb-4">
-              <Wifi className="h-8 w-8" />
-              <span className="ml-2 text-xl font-bold">VelocNet</span>
-            </div>
-            <p className="text-gray-400">
-              Sua melhor escolha em internet de alta velocidade.
-            </p>
+            <Logo />
+            <p className="text-gray-400">A conexão mas proxima de você.</p>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>

@@ -1,5 +1,6 @@
-import { Wifi, X, Menu } from "lucide-react";
+import { X, Menu } from "lucide-react";
 import { useState } from "react";
+import Logo from "../../element/logo.element";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,10 +8,7 @@ const Header = () => {
     <nav className="bg-blue-600 text-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <Wifi className="h-8 w-8" />
-            <span className="ml-2 text-xl font-bold">Paraíso Internet</span>
-          </div>
+          <Logo />
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">

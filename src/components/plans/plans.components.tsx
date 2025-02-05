@@ -1,35 +1,48 @@
+import Title from "../../element/title.element";
 import PlanCard from "./PlanCard";
 
 const Planos = () => {
   return (
-    <section id="plans" className="py-20 bg-gray-50">
+    <section className="py-10 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Nossos Planos</h2>
+        <Title>Nossos Planos</Title>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-5">
           <PlanCard
-            speed={400}
-            price="R$ 80,00"
-            benefits={["INSTALAÇÃO GRÁTIS", "EQUIPAMENTOS EM COMODATO"]}
-          />
-
-          <PlanCard
-            speed={600}
-            price="R$ 99,90"
+            speed="Combo Start"
+            price="R$ 79,90"
+            display="none"
             benefits={[
+              "INTERNET DE ALTA VELOCIDADE",
               "INSTALAÇÃO GRÁTIS",
               "EQUIPAMENTOS EM COMODATO",
-              "DESCONTO DE 5% PARA O PAGAMENTO ATÉ A DATA DE VENCIMENTO",
+              "ROTEADOR c/ WI-FI 5GHz*",
             ]}
           />
 
           <PlanCard
-            speed={700}
-            price="R$ 129,90"
+            speed="Combo Start+"
+            price="R$ 99,90"
+            display=""
+            max="none"
             benefits={[
+              "INTERNET DE ALTA VELOCIDADE",
               "INSTALAÇÃO GRÁTIS",
               "EQUIPAMENTOS EM COMODATO",
+              "ROTEADOR c/ WI-FI 5GHz*",
               "DESCONTO DE 5% PARA O PAGAMENTO ATÉ A DATA DE VENCIMENTO",
+            ]}
+          />
+          <PlanCard
+            speed="Combo Start Premium"
+            price="R$ 129,90"
+            display=""
+            benefits={[
+              "INTERNET DE ALTA VELOCIDADE",
+              "INSTALAÇÃO GRÁTIS",
+              "EQUIPAMENTOS EM COMODATO",
+              "ROTEADOR c/ WI-FI 6GHz*",
+              "DESCONTO DE 10% PARA O PAGAMENTO ATÉ A DATA DE VENCIMENTO",
             ]}
           />
         </div>
