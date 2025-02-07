@@ -1,10 +1,13 @@
 import { Phone, Wifi } from "lucide-react";
+import Title from "../../element/title.element";
+import Text from "../../element/text.element";
 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Sobre Nós</h2>
+        <Title>Sobre Nós</Title>
+
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
@@ -17,12 +20,12 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-4">
               Conectando Pessoas desde 2010
             </h3>
-            <p className="text-gray-600 mb-6">
+            <Text>
               Somos uma empresa comprometida em fornecer a melhor experiência em
               internet para nossos clientes. Com mais de 10 anos de mercado,
               nossa missão é levar conexão de qualidade para todas as
               residências e empresas.
-            </p>
+            </Text>
             <ul className="space-y-4">
               <li className="flex items-center">
                 <div className="bg-blue-600 p-2 rounded-full text-white mr-4">
@@ -30,7 +33,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Tecnologia de Ponta</h4>
-                  <p className="text-gray-600">100% Fibra Óptica</p>
+                  <Text>100% Fibra Óptica</Text>
                 </div>
               </li>
               <li className="flex items-center">
@@ -39,7 +42,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Suporte 24/7</h4>
-                  <p className="text-gray-600">Atendimento Especializado</p>
+                  <Text>Atendimento Especializado</Text>
                 </div>
               </li>
             </ul>

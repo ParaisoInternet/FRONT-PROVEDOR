@@ -7,12 +7,13 @@ import {
   Phone,
 } from "lucide-react";
 import Button from "../../element/button.element";
+import Title from "../../element/title.element";
 
 const Contact = () => {
   return (
     <section id="contact" className="py-20">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Fale Conosco</h2>
+        <Title>Fale Conosco</Title>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <form className="space-y-6">

@@ -48,7 +48,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a
+                  href="https://paraisointernet.sgp.tsmx.com.br/accounts/central/login"
+                  className="text-gray-400 hover:text-white"
+                >
                   Área do Cliente
                 </a>
               </li>
@@ -57,14 +60,15 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>(11) 9999-9999</li>
-              <li>contato@velocnet.com.br</li>
-              <li>Av. Principal, 1000 - Centro</li>
+              <li>(99) 98422-0590</li>
+              <li>0800 099 0590</li>
+              <li>administrativo@paraisointernet.com.br</li>
+              <li>Rua dos Cedros 03, Q A08, Vila Paraíso</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 VelocNet. Todos os direitos reservados.</p>
+          <p>&copy; 2024 Paraíso Internet. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

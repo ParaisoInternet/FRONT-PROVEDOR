@@ -8,6 +8,8 @@ import About from "./components/about/about.componets";
 import FQA from "./components/fqa/fqa.components";
 import Contact from "./components/contact/contact.components";
 import Whats from "./components/whats/whats.components";
+import Advantages from "./components/advantages/advantages.component";
+import BoletoSeparador from "./components/boleto/boleto.component";
 
 function App() {
   return (
@@ -23,19 +25,24 @@ function App() {
       <Hero />
       {/* Plans Section */}
       <Planos />
-      {/* Coverage Section */}
+      <BoletoSeparador />
+
+      <Advantages />
+      {/* area de cobertura
       <Coverage />
-      {/* About Section */}
+      
+    
       <About />
-      {/* Testimonials Section */}
+  
       <Testimonials />
 
-      {/* FAQ Section */}
+     
       <FQA />
 
-      {/* Contact Section */}
+      
       <Contact />
-      {/* Footer */}
+       */}
+
       <Footer />
     </div>
   );
