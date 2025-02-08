@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import Logo from "../../element/logo.element";
 import ButtonCliente from "../../element/button.cliente.element";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,7 +37,7 @@ const Header: React.FC = () => {
             <a href="#plans">Planos</a>
           </li>
           <li className="hover:text-yellow-400 cursor-pointer">
-            <a href="">A Empresa</a>
+            <Link to="/about"> A Empresa</Link>
           </li>
           <li className="hover:text-yellow-400 cursor-pointer">
             <a href="">Novidades</a>
