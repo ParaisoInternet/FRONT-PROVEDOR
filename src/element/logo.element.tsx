@@ -1,11 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Logo = () => {
   return (
     <div className="flex items-center">
-      <img
-        src="../../public/logo2.png"
-        alt="Logo2"
-        className="h-20 rounded-full"
-      />
+      <Link to="/">
+        <img
+          src="../../public/logo2.png"
+          alt="Logo2"
+          className="h-20 rounded-full"
+        />
+      </Link>
     </div>
   );
 };
