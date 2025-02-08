@@ -1,17 +1,17 @@
-import About from "../components/about/about.componets";
+import Contact from "../components/contact/contact.components";
 import Footer from "../components/footer/footer.components";
 import Header from "../components/header/header.component";
 import Whats from "../components/whats/whats.components";
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <>
       <Whats />
       <Header />
-      <About />
+      <Contact />
       <Footer />
     </>
   );
 };
 
-export default AboutPage;
+export default ContactPage;

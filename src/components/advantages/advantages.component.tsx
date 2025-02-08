@@ -52,7 +52,7 @@ const Advantages: React.FC = () => {
           */}
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="../../public/img3.png"
+              src="https://www.totvs.com/wp-content/uploads/2023/11/beneficios-empresa.jpg"
               alt="Vantagens Paraíso Internet"
               className="w-full rounded-lg shadow-md"
             />

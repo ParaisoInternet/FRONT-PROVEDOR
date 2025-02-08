@@ -4,8 +4,11 @@ import Text from "../../element/text.element";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-r from-blue-500 to-purple-600"
+    >
+      <div className="max-w-7xl mx-auto px-4 mt-20">
         <Title>Sobre Nós</Title>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">

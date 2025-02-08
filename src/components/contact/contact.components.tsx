@@ -8,10 +8,12 @@ import {
 } from "lucide-react";
 import Button from "../../element/button.element";
 import Title from "../../element/title.element";
+import { FaW } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 mt-20">
       <div className="max-w-7xl mx-auto px-4">
         <Title>Fale Conosco</Title>
         <div className="grid md:grid-cols-2 gap-12">
@@ -54,16 +56,24 @@ const Contact = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center">
+                  <FaWhatsapp className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>(99) 98422-0590</span>
+                </div>
+                <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>(11) 9999-9999</span>
+                  <span>(99) 2221-0590</span>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>0800 099 0590</span>
                 </div>
                 <div className="flex items-center">
                   <MessageCircle className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>contato@velocnet.com.br</span>
+                  <span>admin@paraisointernet</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Av. Principal, 1000 - Centro</span>
+                  <span>Rua dos Cedros 03, Q A08, Vila Paraíso</span>
                 </div>
               </div>
               <div className="mt-8">

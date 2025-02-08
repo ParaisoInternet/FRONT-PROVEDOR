@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <Logo />
+            <Logo className="h-16" />
             <p className="text-gray-400">A conexão mas proxima de você.</p>
           </div>
           <div>
