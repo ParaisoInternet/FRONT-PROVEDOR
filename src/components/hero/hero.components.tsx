@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const images = [
-  "https://scontent.fthe11-1.fna.fbcdn.net/v/t39.30808-6/475922413_1016475840528763_2712400172867478522_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mx6XnPnFznMQ7kNvgEA3RBH&_nc_zt=23&_nc_ht=scontent.fthe11-1.fna&_nc_gid=A4B-XaAGso0zC8oJ4xOtptN&oh=00_AYC87ZQiTTvvepnaxXWBIjKKZR5SyOCvnz_pCCz0lbHwpA&oe=67B011B4",
+  "https://scontent.fthe11-1.fna.fbcdn.net/v/t39.30808-6/476628094_1018020267040987_3963631478667774129_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MmlpYkSJIDcQ7kNvgGps6kW&_nc_zt=23&_nc_ht=scontent.fthe11-1.fna&_nc_gid=ADV6PwylXnMY4smK7XPMwqW&oh=00_AYDT5L6wllDZYJnT84u1x2Obelzu9XYy5wJWJ99OSOf-6A&oe=67B02FFD",
 ];
 
 const Hero = () => {
