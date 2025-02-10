@@ -13,7 +13,7 @@ const Hero = () => {
       id="home"
       className="relative h-[400px] md:h-[675px] lg:h-[675px] flex items-center"
     >
-      <div className="mt-20">
+      <div>
         {/* Slider de imagens */}
         <Swiper
           modules={[Autoplay, Pagination]}
@@ -26,7 +26,11 @@ const Hero = () => {
             <SwiperSlide key={index}>
               <div
                 className="w-full h-full bg-auto bg-center mt-10"
-                style={{ backgroundImage: `url(${img})` }}
+                style={{
+                  backgroundImage: `url(${img})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
               ></div>
             </SwiperSlide>
           ))}
