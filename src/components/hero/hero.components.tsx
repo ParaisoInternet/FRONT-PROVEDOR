@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const images = [
-  "https://scontent.fthe11-1.fna.fbcdn.net/v/t39.30808-6/476628094_1018020267040987_3963631478667774129_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MmlpYkSJIDcQ7kNvgGps6kW&_nc_zt=23&_nc_ht=scontent.fthe11-1.fna&_nc_gid=ADV6PwylXnMY4smK7XPMwqW&oh=00_AYDT5L6wllDZYJnT84u1x2Obelzu9XYy5wJWJ99OSOf-6A&oe=67B02FFD",
+  "https://raw.githubusercontent.com/ParaisoInternet/FRONT-PROVEDOR/refs/heads/main/public/slide1.png",
 ];
 
 const Hero = () => {
