@@ -6,10 +6,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-20 bg-gradient-to-r from-blue-500 to-purple-600"
+      className="py-20 bg-gradient-to-r from-blue-100 to-gray-200"
     >
       <div className="max-w-7xl mx-auto px-4 mt-20">
-        <Title>Sobre Nós</Title>
+        <Title>A Empresa</Title>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -21,13 +21,20 @@ const About = () => {
           </div>
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              Conectando Pessoas desde 2010
+              Sobre a Paraíso Internet
             </h3>
             <Text>
-              Somos uma empresa comprometida em fornecer a melhor experiência em
-              internet para nossos clientes. Com mais de 10 anos de mercado,
-              nossa missão é levar conexão de qualidade para todas as
-              residências e empresas.
+              A Paraíso Internet nasceu com o propósito de levar conexão de
+              qualidade e acessível para a sua casa e empresa. Com tecnologia de
+              ponta e um atendimento diferenciado, oferecemos planos que
+              garantem estabilidade, velocidade e segurança para que você possa
+              navegar, trabalhar, estudar e se divertir sem preocupações. Nosso
+              compromisso vai além de fornecer internet: buscamos proporcionar
+              uma experiência completa, com suporte técnico especializado e uma
+              equipe sempre pronta para atender você com agilidade e eficiência.
+              Conecte-se ao futuro com a Paraíso Internet e descubra a diferença
+              de contar com um provedor que realmente se importa com a sua
+              conexão!
             </Text>
             <ul className="space-y-4">
               <li className="flex items-center">
@@ -44,7 +51,7 @@ const About = () => {
                   <Phone className="h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-semibold">Suporte 24/7</h4>
+                  <h4 className="font-semibold">Suporte</h4>
                   <Text>Atendimento Especializado</Text>
                 </div>
               </li>

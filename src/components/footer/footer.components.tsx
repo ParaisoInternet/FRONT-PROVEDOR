@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../element/logo.element";
 
 const Footer = () => {
@@ -13,24 +14,27 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-gray-400 hover:text-white">
+                <Link className="text-gray-400 hover:text-white" to="/#home">
                   Início
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#plans" className="text-gray-400 hover:text-white">
+                <Link className="text-gray-400 hover:text-white" to="/#plans">
                   Planos
-                </a>
+                </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#coverage" className="text-gray-400 hover:text-white">
                   Cobertura
                 </a>
-              </li>
+              </li>*/}
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white">
-                  Sobre
-                </a>
+                <Link
+                  className="text-gray-400 hover:text-white"
+                  to="/about#about"
+                >
+                  A Empresa
+                </Link>
               </li>
             </ul>
           </div>
@@ -38,15 +42,18 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Suporte</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white">
-                  Contato
-                </a>
+                <Link
+                  className="text-gray-400 hover:text-white"
+                  to="/contact#contacts"
+                >
+                  Contatos
+                </Link>
               </li>
-              <li>
+              {/*<li>
                 <a href="#faq" className="text-gray-400 hover:text-white">
                   FAQ
                 </a>
-              </li>
+              </li>*/}
               <li>
                 <a
                   href="https://paraisointernet.sgp.tsmx.com.br/accounts/central/login"

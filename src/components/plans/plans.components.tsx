@@ -4,7 +4,10 @@ import PlanDesconto from "./planDesconto";
 
 const Planos = () => {
   return (
-    <section id="plans" className="py-10 bg-gray-100">
+    <section
+      id="plans"
+      className="py-10 bg-gradient-to-r from-blue-100 to-gray-200"
+    >
       <div className="max-w-7xl mx-auto px-4 ">
         <Title>Nossos Planos</Title>
 

@@ -8,12 +8,15 @@ import {
 } from "lucide-react";
 import Button from "../../element/button.element";
 import Title from "../../element/title.element";
-import { FaW } from "react-icons/fa6";
+
 import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 mt-20">
+    <section
+      id="contact"
+      className="py-20 mt-20 bg-gradient-to-r from-blue-100 to-gray-200"
+    >
       <div className="max-w-7xl mx-auto px-4">
         <Title>Fale Conosco</Title>
         <div className="grid md:grid-cols-2 gap-12">
@@ -50,7 +53,7 @@ const Contact = () => {
             </form>
           </div>
           <div>
-            <div className="bg-gray-50 p-8 rounded-lg">
+            <div className="bg-gray-50 p-8 rounded-lg bg-gradient-to-r from-blue-100 to-gray-200">
               <h3 className="text-2xl font-semibold mb-6">
                 Informações de Contato
               </h3>

@@ -36,13 +36,13 @@ const advantagesList = [
   {
     icon: <FaMoneyBillWave className="text-purple-600 text-8xl" />,
     title: "Planos Econômicos",
-    description: "Planos acessíveis para todas as necessidades.",
+    description: "Planos com descontos por pontualidade.",
   },
 ];
 
 const Advantages: React.FC = () => {
   return (
-    <section className="bg-gray-100 justify-items-center ">
+    <section className="bg-gradient-to-r from-blue-100 to-gray-200 justify-items-center ">
       <div className="max-w-7xl  p-6 ">
         <Title>Vantagem da Paraíso Internet</Title>
 

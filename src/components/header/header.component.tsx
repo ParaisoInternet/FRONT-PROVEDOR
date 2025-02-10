@@ -55,10 +55,11 @@ const Header: React.FC = () => {
           <li className="hover:text-yellow-400 cursor-pointer">
             <Link to="/about#about">A Empresa</Link>
           </li>
+          {/*
           <li className="hover:text-yellow-400 cursor-pointer">
             <a href="">Cobertura</a>
           </li>
-          {/*<li className="hover:text-yellow-400 cursor-pointer">
+          <li className="hover:text-yellow-400 cursor-pointer">
             <a href="">Dúvidas</a>
           </li>*/}
           <li className="hover:text-yellow-400 cursor-pointer">
