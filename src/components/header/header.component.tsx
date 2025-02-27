@@ -51,6 +51,37 @@ const Header: React.FC = () => {
           />
         </div>
 
+        <div className=" hidden md:flex items-center space-x-4">
+          <Link
+            to="/#home"
+            className="text-white hover:text-yellow-400"
+            onClick={() => setMenuOpen(false)}
+          >
+            Início
+          </Link>
+          <Link
+            to="/#plans"
+            className="text-white hover:text-yellow-400"
+            onClick={() => setMenuOpen(false)}
+          >
+            Planos
+          </Link>
+          <Link
+            to="/about#about"
+            className="text-white hover:text-yellow-400"
+            onClick={() => setMenuOpen(false)}
+          >
+            A Empresa
+          </Link>
+          <Link
+            to="/contact#contacts"
+            className="text-white hover:text-yellow-400"
+            onClick={() => setMenuOpen(false)}
+          >
+            Contatos
+          </Link>
+        </div>
+
         {/* Ícones e botões */}
         <div className="hidden md:flex items-center space-x-4">
           <a href="https://www.facebook.com/paraisointernet">

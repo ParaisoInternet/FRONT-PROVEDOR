@@ -28,7 +28,7 @@ const Hero = () => {
                 className="w-full h-full bg-auto bg-center mt-10"
                 style={{
                   backgroundImage: `url(${img})`,
-                  backgroundSize: "cover",
+
                   backgroundPosition: "center",
                 }}
               ></div>
