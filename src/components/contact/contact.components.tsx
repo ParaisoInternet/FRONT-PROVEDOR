@@ -21,13 +21,19 @@ const Contact = () => {
         <Title>Fale Conosco</Title>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <form className="space-y-6">
+            <form
+              className="space-y-6"
+              action="https://formsubmit.co/administrativo@paraisointernet.com.br"
+              method="POST"
+            >
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   Nome Completo
                 </label>
                 <input
                   type="text"
+                  name="name"
+                  required
                   className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-600"
                 />
               </div>
@@ -37,6 +43,8 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
+                  name="email"
+                  required
                   className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-600"
                 />
               </div>
@@ -45,6 +53,8 @@ const Contact = () => {
                   Mensagem
                 </label>
                 <textarea
+                  name="message"
+                  required
                   rows={4}
                   className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-600"
                 ></textarea>
