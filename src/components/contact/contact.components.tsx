@@ -59,6 +59,12 @@ const Contact = () => {
                   className="w-full px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-600"
                 ></textarea>
               </div>
+              <input type="hidden" name="_captcha" value="false"></input>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://paraisointernet.com.br"
+              ></input>
               <Button>Enviar mensagem </Button>
             </form>
           </div>
