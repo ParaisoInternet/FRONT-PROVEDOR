@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 
 const images = [
   "https://raw.githubusercontent.com/ParaisoInternet/FRONT-PROVEDOR/refs/heads/main/public/slide1.png",
+  "https://raw.githubusercontent.com/WandesonAndrade/FRONT-PROVEDOR/refs/heads/main/public/slide2.png",
 ];
 
 const Hero = () => {
